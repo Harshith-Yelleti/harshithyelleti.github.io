@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshith Yelleti - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">HY</div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-img">HY</div>
+            <h1>Yelleti Harshith</h1>
+            <p class="tagline">Computer Science Engineering Student</p>
+            <p class="bio">B.Tech CSE @ VNIT Nagpur | Web Developer | Problem Solver | JEE 2023 CRL 9757</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/yelleti-harshith-a5766035a" target="_blank" onclick="event.stopPropagation();">LinkedIn</a>
+                <a href="https://github.com/Harshith-Yelleti" target="_blank" onclick="event.stopPropagation();">GitHub</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=harshithyelleti@gmail.com&su=Hello%20Harshith&body=I%20liked%20your%20portfolio!" onclick="event.stopPropagation();">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="experience-grid">
+            <div class="experience-card fade-in">
+                <h3>B.Tech - Computer Science</h3>
+                <p class="institution">Visvesvaraya National Institute of Technology, Nagpur</p>
+                <p class="grade">CGPA: 7.11</p>
+                <p>Expected: May 2027</p>
+                <p style="margin-top: 1rem; color: #64748b;">Enrollment: BT23CSE114</p>
+            </div>
+            <div class="experience-card fade-in">
+                <h3>Grade XII (APBIE)</h3>
+                <p class="institution">Fiitjee Junior College, Vijayawada</p>
+                <p class="grade">95.1%</p>
+                <p>March 2023</p>
+            </div>
+            <div class="experience-card fade-in">
+                <h3>Grade X (AP SSC)</h3>
+                <p class="institution">Fiitjee (EM) High School</p>
+                <p class="grade">100%</p>
+                <p>March 2021</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="project-card fade-in" style="max-width: 800px; margin: 0 auto;">
+            <h3>Software Engineering Intern</h3>
+            <p class="institution" style="font-size: 1.2rem; color: var(--primary); font-weight: 600; margin-bottom: 0.5rem;">NatWest Group</p>
+            <p class="date">Upcoming Internship</p>
+            <p style="color: #475569; margin-top: 1rem; line-height: 1.8;">
+                Secured a prestigious internship position at NatWest Group, a leading international banking and financial services company. 
+                Will be working on cutting-edge software engineering projects in the financial technology sector.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Personal Projects</h2>
+        <div class="project-grid">
+            <div class="project-card fade-in">
+                <h3>Heap Management System</h3>
+                <p class="date">March 2025</p>
+                <div class="tech-stack">
+                    <span class="tech-badge">C</span>
+                    <span class="tech-badge">Data Structures</span>
+                    <span class="tech-badge">Linked Lists</span>
+                </div>
+                <ul>
+                    <li>Developed a dynamic memory allocator using the Fibonacci buddy system</li>
+                    <li>Implemented splitting, merging, and best-fit allocation strategies</li>
+                    <li>Represented heap blocks as linked nodes with metadata for variable-sized memory allocation</li>
+                    <li>Minimized fragmentation with named tracking system</li>
+                </ul>
+                <a href="https://github.com/Harshith-Yelleti/heap-memory-management" class="project-link">View on GitHub →</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3>Energy Trading Record Management System</h3>
+                <p class="date">February 2025</p>
+                <div class="tech-stack">
+                    <span class="tech-badge">C</span>
+                    <span class="tech-badge">B+ Trees</span>
+                    <span class="tech-badge">File Handling</span>
+                </div>
+                <ul>
+                    <li>Designed B+ Tree-based energy transaction management system for efficient tracking</li>
+                    <li>Implemented buyer/seller registration and regular customer identification</li>
+                    <li>Built tiered energy pricing with automated discount handling</li>
+                    <li>Created custom datetime validation and range-based transaction filtering</li>
+                    <li>Enabled persistent storage with structured file I/O</li>
+                </ul>
+                <a href="https://github.com/Harshith-Yelleti/transaction-system" class="project-link">View on GitHub →</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3>Big Integer Data Type Support</h3>
+                <p class="date">February 2025</p>
+                <div class="tech-stack">
+                    <span class="tech-badge">C</span>
+                    <span class="tech-badge">Dynamic Memory</span>
+                    <span class="tech-badge">Algorithms</span>
+                </div>
+                <ul>
+                    <li>Implemented custom library for arithmetic operations on arbitrarily large integers</li>
+                    <li>Designed addition, subtraction, and multiplication using digit-wise computation</li>
+                    <li>Optimized multiplication with Karatsuba's algorithm for reduced time complexity</li>
+                    <li>Built utility functions for parsing, formatting, and safe memory handling</li>
+                </ul>
+                <a href="https://github.com/Harshith-Yelleti/1024-bit-calculator" class="project-link">View on GitHub →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category fade-in">
+                <h3>Programming Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">C++</span>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3>Web Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3>Core Concepts</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">DSA</span>
+                    <span class="skill-tag">OOP</span>
+                    <span class="skill-tag">Problem Solving</span>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3>Areas of Interest</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Web Development</span>
+                    <span class="skill-tag">Algorithms</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="achievement-card fade-in">
+            <h3>🏆 Achievement</h3>
+            <p>Secured JEE CRL Rank 9757 in JEE 2023</p>
+        </div>
+
+        <div style="margin-top: 3rem;">
+            <h3 style="text-align: center; color: var(--primary); margin-bottom: 2rem;">Position of Responsibility</h3>
+            <div class="experience-card fade-in" style="max-width: 600px; margin: 0 auto;">
+                <h3>Treasurer, CSE Department</h3>
+                <p class="institution">VNIT Nagpur</p>
+                <p>2024 - 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+            <div class="contact-card fade-in">
+                <h3>📧 Email</h3>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=harshithyelleti@gmail.com&su=Hello%20Harshith&body=I%20liked%20your%20portfolio!">harshithyelleti@gmail.com</a>
+            </div>
+            <div class="contact-card fade-in">
+                <h3>📱 Phone</h3>
+                <a href="tel:+918919052757">+91-8919052757</a>
+            </div>
+            <div class="contact-card fade-in">
+                <h3>💼 LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/yelleti-harshith-a5766035a" target="_blank">linkedin.com/in/harshith</a>
+            </div>
+            <div class="contact-card fade-in">
+                <h3>💻 GitHub</h3>
+                <a href="https://github.com/Harshith-Yelleti" target="_blank">github.com/harshithyelleti</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Yelleti Harshith. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; opacity: 0.8;">Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
